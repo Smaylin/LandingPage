@@ -1,0 +1,408 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body a{
+    color: #ffff;
+    background-color: #f0a500;
+    width: 100%;
+    line-height: 1.5em;
+    text-decoration: none;
+    padding: 10px 40px;
+}
+
+body a:hover{
+    background-color: rgb(51 51 51);
+}
+#hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(https://cdn2.shopify.com/s/files/1/2170/1117/t/10/assets/pf-ebe8e9f8-1bda-4f78-8d69-1a60944fc293--FS-01.jpg?255498);
+    
+}
+#hero h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffff;
+    margin: 0px 70px;
+    background-color: #000;
+    padding: 12px 94px;
+}
+#hero span{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px 20px;
+    background-color: #fff;
+}
+
+/* Grab-sales */
+#Grab-sales h2 {
+    margin: 40px 120px;
+    font-size: 30px;
+    font-weight: 900;
+}
+#Grab-sales .container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+#Grab-sales .shop1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px 50px;
+    height: 40vh;
+    margin-bottom: 30px;
+    background-image: url(https://cdn2.shopify.com/s/files/1/2170/1117/t/10/assets/pf-0f7b9988-a759-4a8d-aec6-a87c83b74277--FS-02.jpg?257180);
+}
+#Grab-sales  .shop2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px 50px;
+    margin-bottom: 30px;
+    height: 40vh;
+    background-image: url(https://cdn2.shopify.com/s/files/1/2170/1117/t/10/assets/pf-bc8843db-4f60-42fd-8b9e-42de4ae81a66--FS-03.jpg?257643);
+}
+
+#Grab-sales .shop3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px 50px;
+    height: 40vh;
+    background-image: url(https://cdn2.shopify.com/s/files/1/2170/1117/t/10/assets/pf-3aeef825-1c25-450d-8139-09ce540e3a9e--FS-04.jpg?257659);
+}
+#Grab-sales h3 {
+    color: #fff;
+    font-size: 60px;
+}
+
+#Grab-sales span{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px 30px;
+}
+/* saleoff */
+.h2-sale{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+#saleoff50{
+    display: flex;
+}
+#saleoff50 .container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+#saleoff50 .container .topsale{
+    text-align: center;
+    margin: 0px 20px;
+    margin-bottom: 80px;
+}
+#saleoff50 p{
+
+    margin-bottom: 20px;
+}
+#saleoff50  h2{
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+#saleoff50 img{
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+
+/* POST */
+#post{
+    display: block;
+    background-image: url(https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/fashion-sales_2-1634554909716.jpg?v=1634554911);
+    padding-top: 152px;
+    padding-bottom: 152px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+    
+}
+
+#post .container{
+    margin-top: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#post span{
+    color: #fff;
+    font-size: 20px;
+}
+#post h3{
+    color: #fff;
+    font-size: 60px;
+}
+
+#post p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#post a{
+    color: #ffff;
+    background-color: #f0a500;
+    width: 100%;
+    line-height: 1.5em;
+    text-decoration: none;
+    padding: 10px 40px;
+}
+
+
+/* saleoff20 */
+
+.h2-sale{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+#saleoff20{
+    display: flex;
+}
+#saleoff20 .container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+#saleoff20 .container .topsale{
+    text-align: center;
+    margin: 0px 20px;
+    margin-bottom: 80px;
+}
+#saleoff20 p{
+
+    margin-bottom: 20px;
+}
+#saleoff20  h2{
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+#saleoff20 img{
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+
+
+/* women-Men */
+#women-Men h2 {
+    margin: 40px 120px;
+    font-size: 30px;
+    font-weight: 900;
+}
+#women-Men .container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+#women-Men .shop1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px 50px;
+    height: 40vh;
+    margin-bottom: 30px;
+    background-image: url(https://cdn2.shopify.com/s/files/1/2170/1117/t/10/assets/pf-c2ee6bf0-a4cd-4155-a472-4d5ec02de438--FS-06.jpg?257905);
+}
+
+#women-Men  .shop2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px 50px;
+    margin-bottom: 30px;
+    height: 40vh;
+    background-image: url(https://cdn2.shopify.com/s/files/1/2170/1117/t/10/assets/pf-ebb181a4-caf8-4e52-981b-73a58ce2b57d--FS-07.jpg?257913);
+}
+
+
+
+#women-Men h3 {
+    color: #fff;
+    font-size: 60px;
+}
+
+#women-Men span{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px 30px;
+}
+
+/* saleoff10 */
+
+.h2-sale{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+#saleoff10{
+    display: flex;
+}
+#saleoff10 .container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+#saleoff10 .container .topsale{
+    text-align: center;
+    margin: 0px 20px;
+    margin-bottom: 80px;
+}
+#saleoff10 p{
+
+    margin-bottom: 20px;
+}
+#saleof120  h2{
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+#saleoff10 img{
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+
+@media  (min-width: 1500px) {
+
+    #hero .container{
+        height: 80vh;
+    }
+    #hero h1{
+        font-size: 70px;
+        margin: 0px 70px;
+        padding: 12px 94px;
+    }
+    #hero span{
+        font-size: 30px;
+        padding: 5px 20px;
+    }
+    /* grab */
+    #Grab-sales h2 {
+        margin: 70px 120px;
+        font-size: 60px;
+    }
+    #Grab-sales .shop1{
+        display: flex;
+        float: left;
+        width: 500px;
+        height: 50vh;
+        margin: 0px 30px;
+    }
+
+    #Grab-sales .shop2{
+        height: 50vh;
+    }
+    #Grab-sales .shop3{
+        width: 95%;
+        height: 50vh;
+        margin: auto;
+    }
+    #saleoff50 img{
+        height: 300px;
+    }
+    #saleoff50 .container{
+        margin: auto;
+    }
+    body a{
+        padding: 10px 100px;
+    }
+
+    /* post */
+
+    #post .container{
+        margin-left: 50%;
+        margin-top: auto;
+        display: flex;
+        
+    }
+    .btn-post{
+        margin-left: 50%;
+    }
+    #saleoff20 img{
+        height: 300px;
+    }
+    #saleoff20 .container{
+        margin: auto;
+    }
+
+    #women-Men .container{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+    #women-Men .shop1{
+        display: flex;
+        float: left;
+        width: 50%;
+        margin: 0px 30px;
+        height: 50vh;
+        margin-bottom: 30px;
+
+    }
+    #women-Men .shop2{
+        display: flex;
+        width: 44%;
+        margin: 0px 30px;
+        height: 50vh;
+        
+
+    }
+
+    #saleoff10 img{
+        height: 300px;
+    }
+    #saleoff10 .container{
+        margin: auto;
+    }
+
+}
